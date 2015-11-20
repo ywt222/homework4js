@@ -1,0 +1,53 @@
+#in {
+    text-align: center;
+    background-color: #f8f8ff;
+    width: 88%;
+    margin: 0 auto;
+}
+
+#input {
+    width: 92%;
+    height: 38px;
+    border: solid #009fcc 3px;
+    margin: 35px 0;
+}
+
+#book {
+    width: 88%;
+    margin: 0 auto;
+}
+
+/*以下为js中的*/
+
+.item {
+    text-align: left;
+    width: 80%;
+    color: #444;
+    font-size: 26px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.time {
+    text-align: right;
+    width:30%;
+    color: #666;
+    font-size: 18px;
+    opacity: 0.5;
+    font-family: Arial;
+    font-style: italic;
+    white-space: nowrap;
+}
+
+hr {
+    /*border: none;*/
+    border-top: 1px dashed #888;
+    opacity: 0.5;
+}
+
+.highlight {
+    background-color: #F08;
+    color: white;
+}
